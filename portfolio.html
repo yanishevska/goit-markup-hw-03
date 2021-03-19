@@ -20,33 +20,35 @@
     <!--Шапка-->
     <header class="header line">
       <div class="container nav">
-        <nav>
+        <nav class="nav">
           <div class="logo">
             <a class="logo-title" href="/"
               ><span class="logo-second">Web</span><span>Studio</span></a
             >
           </div>
           <ul class="site-nav list">
-            <li><a href="./index.html" class="link">Студия</a></li>
-            <li><a href="" class="link current">Портфолио</a></li>
-            <li><a href="" class="link">Контакты</a></li>
+            <li class="item"><a href="./index.html" class="link">Студия</a></li>
+            <li class="item"><a href="" class="link current">Портфолио</a></li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="contact list">
-          <li>
+        <ul class="contact nav list">
+          <li class="item">
             <a href="mailto:info@devstudio.com" class="link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+
+          <li class="item">
             <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
     </header>
+
     <main>
       <!--Портфолио-->
-      <section>
+      <section class="section">
         <div class="container">
           <h1 class="visually-hidden">Портфолио</h1>
           <ul class="list list-button">
@@ -58,8 +60,8 @@
           </ul>
         </div>
         <div class="container card">
-          <ul class="card-set list">
-            <li class="list-products">
+          <ul class="card-set list grid">
+            <li class="list-products grid-item border">
               <article class="card link">
                 <div class="card-thumb">
                   <img
@@ -75,7 +77,7 @@
                 </div>
               </article>
             </li>
-            <li class="list-products">
+            <li class="list-products grid-item border">
               <article class="card link">
                 <div class="card-thumb">
                   <img
@@ -92,7 +94,7 @@
               </article>
             </li>
 
-            <li class="list-products">
+            <li class="list-products grid-item border">
               <article class="card link">
                 <div class="card-thumb">
                   <img
@@ -109,7 +111,7 @@
               </article>
             </li>
 
-            <li class="list-products">
+            <li class="list-products grid-item border">
               <article class="card link">
                 <div class="card-thumb">
                   <img
@@ -126,7 +128,7 @@
               </article>
             </li>
 
-            <li class="list-products">
+            <li class="list-products grid-item border">
               <article class="card link">
                 <div class="card-thumb">
                   <img
@@ -143,7 +145,7 @@
               </article>
             </li>
 
-            <li class="list-products">
+            <li class="list-products grid-item border">
               <article class="card link">
                 <div class="card-thumb">
                   <img
@@ -160,7 +162,7 @@
               </article>
             </li>
 
-            <li class="list-products">
+            <li class="list-products grid-item border">
               <article class="card link">
                 <div class="card-thumb">
                   <img
@@ -177,7 +179,7 @@
               </article>
             </li>
 
-            <li class="list-products">
+            <li class="list-products grid-item border">
               <article class="card link">
                 <div class="card-thumb">
                   <img
@@ -194,7 +196,7 @@
               </article>
             </li>
 
-            <li class="list-products">
+            <li class="list-products grid-item border">
               <article class="card link">
                 <div class="card-thumb">
                   <img
@@ -215,14 +217,14 @@
       </section>
     </main>
     <!--Подвал-->
-    <footer class="footer">
-      <div class="container">
+    <footer class="section footer">
+      <div class="container footer-item">
         <a class="logo-title" href="/"
           ><span class="logo-second">Web</span><span>Studio</span></a
         >
         <address>
           <ul class="contact-footer list">
-            <li>
+            <li class="footer-item-adress">
               <a
                 href="https://goo.gl/maps/3GyX5n2y3RwqacvE9"
                 target="_blank"
@@ -231,12 +233,12 @@
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li>
+            <li class="footer-item-contact">
               <a href="mailto:info@example.com" class="link"
                 >info@example.com</a
               >
             </li>
-            <li>
+            <li class="footer-item-contact">
               <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
             </li>
           </ul>
