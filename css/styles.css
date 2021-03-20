@@ -194,6 +194,11 @@ h3 {
   color: var(--accent-color);
 }
 
+.contact .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .contact-footer {
   color: var(--contact-color);
 }
@@ -207,7 +212,6 @@ h3 {
 
 .hero {
   background-color: var(--dark-bg-color);
-  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -216,6 +220,11 @@ h3 {
 
 .hero-container {
   text-align: center;
+}
+
+.section.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -284,6 +293,10 @@ h3 {
   padding-bottom: 94px;
 }
 
+.section.galery {
+  padding-top: 0;
+}
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -331,22 +344,25 @@ h3 {
 }
 
 .team .team-title {
-  padding-top: 30px;
   padding-bottom: 10px;
   font-size: 16px;
   line-height: 1.19;
   font-weight: 500;
 }
 
+.team-card {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-position {
   color: var(--main-text-color);
-  padding-bottom: 30px;
 }
 
 /*Портфолио.*/
 
 .container.card {
-  margin-top: 34px;
+  margin-top: 50px;
   flex-direction: row;
 }
 
